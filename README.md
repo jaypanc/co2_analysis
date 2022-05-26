@@ -13,6 +13,54 @@ some of the features of the dataset are :
 [Download dataset](https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv)
 
 ## Preview of webapp  
-![Screenshot (4)](https://user-images.githubusercontent.com/66965333/170456609-fb78e0e6-b15b-4625-8015-9eacdb57646a.png)
 
-On this tab, you can select a feature and a timeline to see how a continent is contributing to $CO_2$ pollution in that timeline. We can also cumulative contribution of a continent.
+
+* On this tab, you can select a feature and a timeline to see how a continent is contributing to $CO_2$ pollution in that timeline. We can also cumulative contribution of a continent.    
+
+![second tab](https://user-images.githubusercontent.com/66965333/170456609-fb78e0e6-b15b-4625-8015-9eacdb57646a.png)
+  
+ 
+* you can select different countries and a parameter with specific timeline. That will generate a plot. Selecting a specific part of plot will give you all data points of the selected region which has basic filtering options.    
+  
+![third tab](https://user-images.githubusercontent.com/66965333/170531602-10e77d2f-016e-489c-8646-b8ccc6034879.png)
+  
+* In the last tab, you can get the most and the least contributing countries to selected feature.    
+  
+![gh2](https://user-images.githubusercontent.com/66965333/170532374-fe353beb-6796-4f11-9e17-36e2f0160727.jpg)
+
+
+## Results 
+
+Average $CO_2$ levels of continents
+
+
+| Continent | $CO_2$ |
+| --- | --- |
+| Asia | 2821 |
+| North America |2025 |
+| Europe |1960 |
+| Africa |348 |
+| South America |316 |
+| Oceania |130 |
+| Antarctica |102 |
+
+A Welch T-Test(unequal variance) shows that there is significant difference in mean of Asia and North America. 
+
+When you look at values of Asia specifically, 46.18% of $CO_2$ pollution is done by China and India combined. It might show that India is as pollutant as China.
+  
+| Continent | $CO_2$(total values) |
+| --- | --- |
+| Asia | 538810 |
+| Asia excluding China and India | 248829 |
+
+Diggind deep for China and India:
+
+| Country | $CO_2$(total values) |
+| --- | --- |
+| China | 236100 |
+| India | 57363 |
+
+The numbers here clearly shows that **China is responsible for most of pollution in Asia**. Talking numbers, there might be mismatch of sum this is due to years not being accounted. 
+
+
+
