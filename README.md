@@ -91,5 +91,3 @@ Comparing countries with most GDP shares(values are in descending order of $CO_2
 | Canada | 33316 |
 | Italy | 24494 |
 | Brazil | 16239 |
-
-
