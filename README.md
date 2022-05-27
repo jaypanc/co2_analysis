@@ -44,23 +44,52 @@ Average $CO_2$ levels of continents
 | Oceania |130 |
 | Antarctica |102 |
 
-A Welch T-Test(unequal variance) shows that there is significant difference in mean of Asia and North America. 
+Values of Asia, North America and Europe do not show a big difference but A Welch T-Test(unequal variance) shows that there is **significant difference in mean of Asia & North America and Asia and Europe but there is no difference in North America and Europe.** Just looking at mean values can be confusing so looking at total values of $CO_2$ for continents from 1900 to 2020.  
+
+![image](https://user-images.githubusercontent.com/66965333/170625879-12401a45-a880-4b5f-96f4-9ab66a2f5c8f.png)  
+ 
+![image](https://user-images.githubusercontent.com/66965333/170627145-c7501086-80d5-44af-ab9f-a7e97ff104ea.png)
+
 
 When you look at values of Asia specifically, 46.18% of $CO_2$ pollution is done by China and India combined. It might show that India is as pollutant as China.
   
-| Continent | $CO_2$(total values) |
+| Continent | $CO_2$ (total values) |
 | --- | --- |
 | Asia | 538810 |
 | Asia excluding China and India | 248829 |
 
 Diggind deep for China and India:
 
-| Country | $CO_2$(total values) |
+| Country | $CO_2$ (total values) |
 | --- | --- |
 | China | 236100 |
 | India | 57363 |
 
 The numbers here clearly shows that **China is responsible for most of pollution in Asia**. Talking numbers, there might be mismatch of sum this is due to years not being accounted. 
 
+Looking data of North America,
+
+| Continent | $CO_2$ (total values) |
+| --- | --- |
+| North America | 477802 |
+| North America excluding USA | 61078 |
+
+This shows that USA is major reason for $CO_2$ pollution in North America.  
+
+Comparing countries with most GDP shares(values are in descending order of $CO_2$ emission) from 1900 to 2020,
+
+
+| Country | $CO_2$ (total values) |
+| --- | --- |
+| United States | 406721 |
+| China | 236100 |
+| Germany | 86572 |
+| Japan | 65465 |
+| United Kingdom | 61837 |
+| India | 54313 |
+| France | 35147 |
+| Canada | 33316 |
+| Italy | 24494 |
+| Brazil | 16239 |
 
 
